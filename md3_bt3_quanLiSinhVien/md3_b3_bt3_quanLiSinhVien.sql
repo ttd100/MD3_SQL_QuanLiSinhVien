@@ -1,3 +1,4 @@
+SELECT * FROM quanlysinhvien2.class;
 CREATE DATABASE QuanLySinhVien2;
 USE QuanLySinhVien2;
 CREATE TABLE Class
@@ -68,5 +69,3 @@ where credit between 3 and 5;
 from student s join mark m on s.StudentId = m.StudentId 
 join subject sj on sj.SubId = m.SubId 
 order by Mark desc , StudentName desc;
-
-
